@@ -1,12 +1,12 @@
-# Unicode Character Inspector
+# Unicode Codepoint Breakdown
 
 Paste or type text and get a per-character breakdown. For every character you see the glyph, its Unicode code point (U+XXXX), general category, rough block, UTF-8 byte sequence, UTF-16 code units, and the JS, HTML, and CSS escape forms. Invisible characters (zero-width, no-break space, bidi controls) and likely confusables (homoglyphs) are flagged. Single self-contained file, no external dependencies, works offline.
 
-**Live demo:** https://0xelitesystem.github.io/unicode-character-inspector/
+**Live demo:** https://0xelitesystem.github.io/unicode-codepoint-breakdown/
 
 ## Live demo
 
-https://0xelitesystem.github.io/unicode-character-inspector/
+https://0xelitesystem.github.io/unicode-codepoint-breakdown/
 
 ## Use
 
@@ -45,8 +45,8 @@ The page saves one thing in localStorage: your light or dark theme choice, under
 ## Run locally
 
 ```
-git clone https://github.com/0xelitesystem/unicode-character-inspector
-cd unicode-character-inspector
+git clone https://github.com/0xelitesystem/unicode-codepoint-breakdown
+cd unicode-codepoint-breakdown
 ```
 
 Open `index.html` in any browser. Or serve the folder and visit http://localhost:8000:
